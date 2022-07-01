@@ -1,0 +1,17 @@
+# VsCode
+.vscode/
+bootstrap*/
+
+# Logs
+logs
+*.log
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Gatsby files
+.cache/
+
+# Exercices
+exercices/
