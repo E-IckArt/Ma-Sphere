@@ -9,7 +9,7 @@
 -   formulaires,
 -   superglobales $**GET, $**POST,
 -   signature d'une fonction,
--   POO : classe, constructeur, encapsulation,
+-   POO : classe, constructeur, encapsulation, héritage, classe abstraite
 -   debug,
 -   gestion des exceptions,
 
