@@ -11,6 +11,7 @@
 -   signature d'une fonction,
 -   POO : classe, constructeur, encapsulation,
 -   debug,
+-   gestion des exceptions,
 
 ## Environnement frameworks :
 
