@@ -1,4 +1,6 @@
-# Projet d'initiation à PHP. Idée originale de Lucas DELOBELLE, formateur STUDI
+# Ma sphère - Projet d'initiation à PHP
+
+_Projet d'application de la série de live de Lucas DELOBELLE, formateur STUDI._
 
 ## Notions mises en application :
 
@@ -7,18 +9,21 @@
 -   require et require_once,
 -   organisation basique des fichiers,
 -   formulaires,
--   superglobales $**GET, $**POST,
+-   superglobales \$\_GET, \$\_POST,
 -   signature d'une fonction,
 -   POO : classe, constructeur, encapsulation, héritage, classe abstraite
 -   debug,
 -   gestion des exceptions,
--   creation d'une base de données avec PhpMyAdmin,
+-   création d'une base de données avec PhpMyAdmin,
 -   PDO statement,
+-   CRUD,
 
-## Environnement frameworks :
+## Environnement, frameworks :
 
--   PHP Vanilla,
+-   PHP Vanilla 8.1.6,
 -   Bootstrap 5.2.0, installation locale,
+-   Serveur BD : MariaDB,
+-   Serveur Web : Apache/2.4.53
 
 ## Configuration
 
