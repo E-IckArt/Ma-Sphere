@@ -1,0 +1,3 @@
+DB_DSN="mysql:host=xxxxxxxx;dbname=xxxxxxxx;charset=xxxxxxxx"
+DB_USER="xxxxxxxx"
+DB_PASSWORD="xxxxxxxx"
