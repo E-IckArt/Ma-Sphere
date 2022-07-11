@@ -13,6 +13,7 @@ class User
     private string $email;
     private string $password;
     private string $description;
+    private string $avatar;
     private bool $active;
 
     // Conctructeur (c'est une des méthodes de la classe, elle toujours public mais facultative)
@@ -194,6 +195,26 @@ class User
     public function setActive($active)
     {
         $this->active = $active;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of avatar
+     */
+    public function getAvatar()
+    {
+        return $this->avatar;
+    }
+
+    /**
+     * Set the value of avatar
+     *
+     * @return  self
+     */
+    public function setAvatar($avatar)
+    {
+        $this->avatar = $avatar;
 
         return $this;
     }
