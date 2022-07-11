@@ -7,8 +7,11 @@ class User
     private const LEGAL_AGE = 18; // Constante définie pour utilisation dans la fonction hasLegalAge
 
     private int $id;
-    private string $name;
+    private string $firstname;
+    private string $lastname;
     private int $age;
+    private string $email;
+    private string $password;
     private string $description;
     private bool $active;
 
@@ -55,24 +58,45 @@ class User
     }
 
     /**
-     * Get the value of name
+     * Get the value of firstname
      */
-    public function getName(): string
+    public function getFirstname(): string
     {
-        return $this->name;
+        return $this->firstname;
     }
 
     /**
-     * Set the value of name
+     * Set the value of firstname
      *
      * @return  self
      */
-    public function setName($name)
+    public function setFirstname($firstname)
     {
-        $this->name = $name;
+        $this->firstname = $firstname;
 
         return $this;
     }
+
+    /**
+     * Get the value of lastname
+     */
+    public function getLastname(): string
+    {
+        return $this->lastname;
+    }
+
+    /**
+     * Set the value of lastname
+     *
+     * @return  self
+     */
+    public function setLastname($lastname)
+    {
+        $this->lastname = $lastname;
+
+        return $this;
+    }
+
 
     /**
      * Get the value of age
@@ -90,6 +114,46 @@ class User
     public function setAge($age)
     {
         $this->age = $age;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of email
+     */
+    public function getEmail(): string
+    {
+        return $this->email;
+    }
+
+    /**
+     * Set the value of email
+     *
+     * @return  self
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of password
+     */
+    public function getPassword(): string
+    {
+        return $this->password;
+    }
+
+    /**
+     * Set the value of password
+     *
+     * @return  self
+     */
+    public function setPassword($password)
+    {
+        $this->password = $password;
 
         return $this;
     }
@@ -134,33 +198,3 @@ class User
         return $this;
     }
 }
-
-// Instanciation d'un objet
-$user = new User(123, false);
-$admin = new User(1);
-
-echo '<pre>';
-var_dump($user);
-
-echo $user?->getId();
-echo '<br>';
-
-$users[] = [$user, $admin];
-var_dump($users);
-
-$user->setAge(20);
-var_dump($user);
-
-$user2 = new User(23);
-$user2->setName('Helen')
-    ->setAge(32)
-    ->setDescription('tape canal waste claws play see moving wolf sleep problem pig screen hat image help shelf enjoy dozen complete sort tiny dry setting spell');
-
-array_push($users, $user2);
-
-echo '<h1>Users</h1>';
-var_dump($users);
-
-$admin->setAge(32);
-
-echo $admin->hasLegalAge() ? "Access granted" : "Acces denied";
