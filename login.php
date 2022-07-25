@@ -12,7 +12,7 @@ require_once 'layout/header.php' ?>
     </div>
     <div class="row">
         <div class="col">
-            <form>
+            <form method="post" action="">
                 <div class="mb-3">
                     <label for="email" class="form-label">Adresse mail</label>
                     <input type="email" class="form-control" id="email" placeholder="nom@example.com" name="email" aria-describedby="emailHelp">
@@ -23,6 +23,7 @@ require_once 'layout/header.php' ?>
                     <input type="password" class="form-control" id="password" name="password">
                 </div>
                 <div class="mb-3 form-check">
+                    <!-- TODO - Fonctionnalité à implémenter -->
                     <input type="checkbox" class="form-check-input" id="Check1">
                     <label class="form-check-label" for="Check1">Se souvenir de moi</label>
                 </div>

@@ -18,7 +18,6 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100 bg-light">
-
     <header>
         <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
             <div class="container-fluid">
