@@ -1,6 +1,7 @@
 # Ma sphère - Projet d'initiation à PHP
 
-_Projet d'application de la série de live de Lucas DELOBELLE, formateur STUDI._
+_Projet d'application de la série de live de Lucas DELOBELLE, formateur STUDI._  
+_Juin 2022_
 
 ## Notions mises en application :
 
