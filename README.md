@@ -10,7 +10,8 @@ _Juin 2022_
 -   require et require_once,
 -   organisation basique des fichiers,
 -   formulaires,
--   superglobales \$\_GET, \$\_POST,
+-   superglobales \$\_GET, \$\_POST, \$\_SESSION,
+-   login et logout,
 -   signature d'une fonction,
 -   POO : classe, constructeur, encapsulation, héritage, classe abstraite
 -   debug,

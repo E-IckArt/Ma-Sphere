@@ -1,4 +1,5 @@
 <?php
+session_start();
 $title = "Contact";
 require_once 'layout/header.php' ?>
 
