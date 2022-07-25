@@ -13,7 +13,7 @@ require_once 'layout/header.php';
     </div>
     <div class="row">
         <div class="col">
-            <form method="post" action="signin_treatment.php" enctype="multipart/form-data">
+            <form method="post" action="signup_treatment.php" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="lastname" class="form-label">Nom</label>
                     <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Votre nom" maxlength="32">

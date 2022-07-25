@@ -47,7 +47,7 @@ if (!empty($_POST['age']) && !empty($_POST['email']) && !empty($_POST['password'
 
         header('Location: profil.php');
     } catch (Exception $exception) {
-        file_put_contents('signin_logs.log', $e->getMessage() . PHP_EOL, FILE_APPEND);
+        file_put_contents('signup_logs.log', $e->getMessage() . PHP_EOL, FILE_APPEND);
         exit('Une erreur s\'est produite. Les données n\'ont pu être enregistrées. Veuillez vérifier votre saisie et valider à nouveau.');
     }
 } else {
