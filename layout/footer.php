@@ -6,7 +6,7 @@
                     <a class="nav-link disabled" href="#">Emi IckArt - © Juin 2022 </a>
                 </li>
                 <li class="nav-item me-3">
-                    <a class="nav-link" href="../contact.php">Me contacter</a>
+                    <a class="nav-link" href="mailto:emi.ickart@gmail.com">Me contacter</a>
                 </li>
                 <li class="nav-item me-3">
                     <a class="nav-link" href="https://github.com/E-IckArt">Voir mes autres projets</a>
