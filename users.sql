@@ -46,9 +46,9 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `age`, `email`, `password`, `description`, `avatar`, `active`) VALUES
 (1, 'Bob', 'Sleigh', 30, 'test@test.com', 'sEcr3t', NULL, NULL, 1),
 (2, 'Lana', 'Thure', 16, 'lana@example.com', 'deVine', NULL, NULL, 1),
-(7, 'delarue', 'toto', 13, 'toto@example.com', '$2y$10$R684dY5.pAVHOq7w2KK3meVIOmVy1Hyw.xIkWRHPvSq5Nc1xGym9W', NULL, 'bird-1297727_1280.png', 1),
-(8, 'tata', 'tata', 17, 'tata@example.com', '$2y$10$0maOhdNw1f.eewjF1/TWWOO4Ir.yBTWC7WcHZKAERqI7.y0qD2N1q', NULL, 'cat-5377963_1920.png', 1),
-(9, 'Jean', 'Valgant', 16, 'jean@test.com', '$2y$10$/Wcdi5dUhu.2pe2jAus7tu/9Q6NopnxOYum2LzLv4G1Q8Y2dUIDQG', NULL, 'city-on-winter.jpg', 1);
+(7, 'delarue', 'toto', 13, 'toto@example.com', '', NULL, 'bird-1297727_1280.png', 1),
+(8, 'tata', 'tata', 17, 'tata@example.com', '', NULL, 'cat-5377963_1920.png', 1),
+(9, 'Jean', 'Valgant', 16, 'jean@test.com', '', NULL, 'city-on-winter.jpg', 1);
 
 --
 -- Index pour les tables déchargées

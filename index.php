@@ -21,6 +21,7 @@ require_once 'layout/header.php'
             <a href="" type="button" class="btn btn-outline-primary">
                 Voir plus de profils
             </a>
+            <!-- TODO- Implémenter la redirection , utilisateur connecté ? profil.php : login.php -->
         </div>
     </div>
 </div>
